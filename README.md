@@ -64,3 +64,14 @@ Sample CSV file is provided for demonstration.
 
 ## Author
 Hari Krishnan
+## 📸 Screenshots
+
+### Events Page
+![Events](Events.png)
+
+### Attendee Page
+![Attendee](Attendee.png)
+
+### Ticket Page
+![Ticket](Ticket.png)
+
