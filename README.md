@@ -31,3 +31,36 @@ Pre-commit is configured to use the following tools for checking and formatting 
 ### License
 
 mit
+# Event Management System (Frappe)
+
+## Features
+- Create and manage Events (Events1 DocType)
+- Register Attendees linked to Events
+- Create Tickets linked to Attendees and Events
+- Auto calculation of:
+  - Tickets Sold
+  - Remaining Capacity
+- Capacity validation
+- Client Script based automation
+- CSV template provided (UI import not available in this Frappe version)
+
+## Tech Stack
+- Frappe Framework
+- Python
+- JavaScript (Client Script)
+- MariaDB
+
+## How to Run
+1. Install Frappe Bench
+2. Clone this repository inside apps folder
+3. Run:
+   bench start
+4. Open browser:
+   http://127.0.0.1:8000
+
+## CSV Import
+Due to Frappe UI limitations for custom DocTypes, CSV import is not visible in UI.
+Sample CSV file is provided for demonstration.
+
+## Author
+Hari Krishnan
